@@ -1,0 +1,562 @@
+
+
+Started GET "/" for ::1 at 2016-05-14 15:51:38 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 18ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/index" for ::1 at 2016-05-14 15:51:47 -0600
+
+ActionController::RoutingError (No route matches [GET] "/homes/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/homes/index" for ::1 at 2016-05-14 15:52:28 -0600
+
+ActionController::RoutingError (No route matches [GET] "/homes/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.4ms)
+
+
+Started GET "/homes/index" for ::1 at 2016-05-14 15:52:31 -0600
+
+ActionController::RoutingError (No route matches [GET] "/homes/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.2ms)
+
+
+Started GET "/home/index" for ::1 at 2016-05-14 15:52:54 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/_base (1074.7ms)
+Completed 200 OK in 1171ms (Views: 1171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-51df3fecd04723f9da57876e6f888780b761e33da65affb183fed2a9643e6a54.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-71eaedb0291cf26a07d496a45d0f7f1511b3ca3668dc046d623d40195d75650a.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/gsdk/demo.self-9b8ea148d77a598b666007def48e787d913775ef9fec16d75b121783d326bc65.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/gsdk.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-05-14 15:52:55 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/jquery-ui-1.10.4.custom.min.self-ddfa1d724d9ed7e2acea340919e81dbee0c364a4b704971a78c30a56621d20bf.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-69ca6fc7d0d2158d8161e410bb0e4b60d79e6d756404b5dc917a9a29c6613fe7.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/gsdk-checkbox.self-96cbda1fc13a01f7c4d749b4f4fbb4e73c44ac208cfa6ec01f39fb436d6ba53b.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/gsdk-bootstrapswitch.self-36f32d20ad402dac6c80d0c5d17127422bb92268c50a08a6b4eb31896f59b8ef.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/gsdk-radio.self-b7f7a47087ce7f973f9bf2a657ff1c0fdef3cca2ca6e483c0b17f1c58e314ee1.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-0d9d36ce546c73098add4a100e0df0f53ddebd0ed461b3ac2188458713e7e71b.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/custom.self-721c3436a4fa115f461f6653f5d60802c498a5c3e53862d8d4f6427d9d77b6dd.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/init.self-110bb579704e2530756fa1ee1d1cdf8585a8d7206c026bb343a56e5bd7d72ecd.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk.self-d9ea21369e85c9bf8ec865ca95e9cb6f2e7cd690f5c3bf1409ff650a2a995444.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/new_logo-430817428abc3049459c6567aa39cee8101ab9dfbe454d3d25fcf544570e4eb4.png" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap3/glyphicons-halflings-regular-63faf0af44a428f182686f0d924bb30e369a9549630c7b98a969394f58431067.woff" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/blurred-black-cover-7365c8c047dfb425a51f188da1489f8575a6693776ab7d3656206cc5b027aff9.jpg" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/cover_4_blur-df05e62f4087dc84bdd78ffd50c8fd356a90dc6e35bb08fbed8219f4e74abfb3.jpg" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/assets/gsdk/mask-b011e8dfd47b6aa492ec478f16a4f95bb90f87045f4503f2430a99563e807b9d.png" for ::1 at 2016-05-14 15:52:56 -0600
+
+
+Started GET "/home/index" for ::1 at 2016-05-14 15:55:45 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/_base (3.8ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/index" for ::1 at 2016-05-14 15:57:02 -0600
+Processing by ComprasController#index as HTML
+  Rendered compras/index.html.erb within layouts/_base (14.6ms)
+Completed 200 OK in 151ms (Views: 150.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/compras.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/compras.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/mockup-292d660db4ada25953f6115e55a5e48bfe15e6bb099fabdcf322de2cf7d0c8aa.png" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/carousel_blue-b1f3436d04acd89f9b8062f2934f335b5d9de7ec87d72cdf370e8d2876210600.png" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/carousel_green-81cfa3e5763ece18429139a4ed8e838ad3f07ce07583ee7795299bbe659ada7c.png" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/carousel_red-d66dd60ccf8f8df8e493049fd28daa9d638d992d15e020de8aa5374e06bd5e1e.png" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/dulau-7202faa23e098c261e5f6a3533262ff078018a35ef29c5eb59ffadb16262727d.jpg" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/cover_4-6b45d9f043f08d5b8ae632313725c54a133d0502813b58df0f54c1806b7614ff.jpg" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/assets/gsdk/bg-bffb64049203db5b67ea2044776ac38dfda9b06baf45553d6a1a8b772e8fc60d.jpg" for ::1 at 2016-05-14 15:57:03 -0600
+
+
+Started GET "/pedidos/index" for ::1 at 2016-05-14 15:57:50 -0600
+Processing by PedidosController#index as HTML
+  Rendered pedidos/index.html.erb within layouts/_base (1.9ms)
+Completed 200 OK in 131ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pedidos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 15:57:50 -0600
+
+
+Started GET "/assets/pedidos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 15:57:50 -0600
+
+
+Started GET "/notificaciones/index" for ::1 at 2016-05-14 15:58:57 -0600
+Processing by NotificacionesController#index as HTML
+  Rendered notificaciones/index.html.erb within layouts/_base (3.1ms)
+Completed 200 OK in 164ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notificaciones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 15:58:57 -0600
+
+
+Started GET "/assets/notificaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 15:58:57 -0600
+
+
+Started GET "/template/index" for ::1 at 2016-05-14 15:59:57 -0600
+Processing by TemplateController#index as HTML
+  Rendered template/index.html.erb within layouts/_base (0.3ms)
+Completed 200 OK in 138ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/template.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 15:59:57 -0600
+
+
+Started GET "/assets/template.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 15:59:57 -0600
+
+
+Started GET "/turotial/index" for ::1 at 2016-05-14 16:01:08 -0600
+
+ActionController::RoutingError (No route matches [GET] "/turotial/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/campbell/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/campbell/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/tutorial/index" for ::1 at 2016-05-14 16:01:15 -0600
+Processing by TutorialController#index as HTML
+  Rendered tutorial/index.html.erb within layouts/_base (5.6ms)
+Completed 200 OK in 163ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tutorial.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:01:15 -0600
+
+
+Started GET "/assets/tutorial.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:01:15 -0600
+
+
+Started GET "/tutorial/index" for ::1 at 2016-05-14 16:02:00 -0600
+Processing by TutorialController#index as HTML
+  Rendered tutorial/index.html.erb within layouts/_base (2.9ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-51df3fecd04723f9da57876e6f888780b761e33da65affb183fed2a9643e6a54.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-71eaedb0291cf26a07d496a45d0f7f1511b3ca3668dc046d623d40195d75650a.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/demo.self-9b8ea148d77a598b666007def48e787d913775ef9fec16d75b121783d326bc65.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/compras.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/notificaciones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/pedidos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/tutorial.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/template.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/jquery-ui-1.10.4.custom.min.self-ddfa1d724d9ed7e2acea340919e81dbee0c364a4b704971a78c30a56621d20bf.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-69ca6fc7d0d2158d8161e410bb0e4b60d79e6d756404b5dc917a9a29c6613fe7.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/gsdk-radio.self-b7f7a47087ce7f973f9bf2a657ff1c0fdef3cca2ca6e483c0b17f1c58e314ee1.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/gsdk-checkbox.self-96cbda1fc13a01f7c4d749b4f4fbb4e73c44ac208cfa6ec01f39fb436d6ba53b.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-0d9d36ce546c73098add4a100e0df0f53ddebd0ed461b3ac2188458713e7e71b.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/gsdk-bootstrapswitch.self-36f32d20ad402dac6c80d0c5d17127422bb92268c50a08a6b4eb31896f59b8ef.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/custom.self-721c3436a4fa115f461f6653f5d60802c498a5c3e53862d8d4f6427d9d77b6dd.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/init.self-110bb579704e2530756fa1ee1d1cdf8585a8d7206c026bb343a56e5bd7d72ecd.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk.self-d9ea21369e85c9bf8ec865ca95e9cb6f2e7cd690f5c3bf1409ff650a2a995444.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/compras.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/notificaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/pedidos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/template.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/tutorial.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/new_logo-430817428abc3049459c6567aa39cee8101ab9dfbe454d3d25fcf544570e4eb4.png" for ::1 at 2016-05-14 16:02:00 -0600
+
+
+Started GET "/assets/gsdk/blurred-black-cover-7365c8c047dfb425a51f188da1489f8575a6693776ab7d3656206cc5b027aff9.jpg" for ::1 at 2016-05-14 16:02:01 -0600
+
+
+Started GET "/tutorial/index" for ::1 at 2016-05-14 16:02:19 -0600
+Processing by TutorialController#index as HTML
+  Rendered tutorial/index.html.erb within layouts/_base (2.8ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-71eaedb0291cf26a07d496a45d0f7f1511b3ca3668dc046d623d40195d75650a.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/compras.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-51df3fecd04723f9da57876e6f888780b761e33da65affb183fed2a9643e6a54.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/demo.self-9b8ea148d77a598b666007def48e787d913775ef9fec16d75b121783d326bc65.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/notificaciones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/pedidos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/template.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/tutorial.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/jquery-ui-1.10.4.custom.min.self-ddfa1d724d9ed7e2acea340919e81dbee0c364a4b704971a78c30a56621d20bf.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/bootstrap3/bootstrap.self-69ca6fc7d0d2158d8161e410bb0e4b60d79e6d756404b5dc917a9a29c6613fe7.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/gsdk-checkbox.self-96cbda1fc13a01f7c4d749b4f4fbb4e73c44ac208cfa6ec01f39fb436d6ba53b.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/gsdk-radio.self-b7f7a47087ce7f973f9bf2a657ff1c0fdef3cca2ca6e483c0b17f1c58e314ee1.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/gsdk-bootstrapswitch.self-36f32d20ad402dac6c80d0c5d17127422bb92268c50a08a6b4eb31896f59b8ef.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/get-shit-done.self-0d9d36ce546c73098add4a100e0df0f53ddebd0ed461b3ac2188458713e7e71b.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/custom.self-721c3436a4fa115f461f6653f5d60802c498a5c3e53862d8d4f6427d9d77b6dd.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/init.self-110bb579704e2530756fa1ee1d1cdf8585a8d7206c026bb343a56e5bd7d72ecd.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk.self-d9ea21369e85c9bf8ec865ca95e9cb6f2e7cd690f5c3bf1409ff650a2a995444.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/compras.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/notificaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/pedidos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/template.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/tutorial.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/blurred-black-cover-7365c8c047dfb425a51f188da1489f8575a6693776ab7d3656206cc5b027aff9.jpg" for ::1 at 2016-05-14 16:02:19 -0600
+
+
+Started GET "/assets/gsdk/new_logo-430817428abc3049459c6567aa39cee8101ab9dfbe454d3d25fcf544570e4eb4.png" for ::1 at 2016-05-14 16:02:19 -0600
